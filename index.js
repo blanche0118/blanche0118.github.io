@@ -1,4 +1,4 @@
-var flag = 'c3b'
+var flag = 'begin'
 
 var seasons = [0, 0, 0, 0]
 var chapterOneBefore = "./assets/c1b.mp4"
