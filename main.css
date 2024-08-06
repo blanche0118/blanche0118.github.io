@@ -16,20 +16,20 @@ video{
     width: 100%;
     height: auto;
     position: absolute;
-    bottom: 40px;
+    bottom: 10vh;
     text-align: center;
     color: #fff;
 }
 .begin-wrap p{
     color: #ccc;
-    font-size: 12px; 
+    font-size: 2.5vh;
 }
 .begin-wrap p:nth-child(2){
-    margin-bottom: 60px;
+    margin-bottom: 10vh;
 }
 
 .begin-wrap h2{
-    font-size: 18px;
+    font-size: 4vh;
     cursor: pointer;
     transform: all 0.5s;
     border: 1px solid #000;
