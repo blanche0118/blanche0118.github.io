@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: Serif;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.begin-wrap{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+    color: #fff;
+}
+.begin-wrap p{
+    color: #ccc;
+    font-size: 12px; 
+}
+.begin-wrap p:nth-child(2){
+    margin-bottom: 60px;
+}
+
+.begin-wrap h2{
+    font-size: 18px;
+    cursor: pointer;
+    transform: all 0.5s;
+    border: 1px solid #000;
+    display: inline;
+}
+.begin-wrap h2:hover{
+    border-bottom: 1px solid white; /* 设置下划线 */
+}
+video {
+    transition: opacity 1s ease-in-out;
+  }
