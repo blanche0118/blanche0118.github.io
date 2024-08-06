@@ -53,14 +53,14 @@ function chapterVideo() {
     chapterThreeChoice()
   } else if (flag === 'c3V') {
     if (seasons.indexOf(0) === -1) {
-      
+      $('#end').css('display', "flex")
     } else {
       flag = 'c3b'
       chapterThreeChoice()
     }
   }
 }
-end.css('display', "flex")
+
 
 function chapterTwoChoice() {
   $('.c2cBox').css('display', "block")
