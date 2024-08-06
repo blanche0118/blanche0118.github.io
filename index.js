@@ -50,6 +50,8 @@ function chapterVideo() {
     flag = 'c2c'
     chapterTwoChoice()
   } else if (flag === 'c3b') {
+    setVideoSrc('#video', chapterThreeBefore, 'c3')
+  }else if (flag === 'c3') {
     chapterThreeChoice()
   } else if (flag === 'c3V') {
     if (seasons.indexOf(0) === -1) {
@@ -93,7 +95,6 @@ function chapterThreeChoice() {
 
 }
 
-chapterThreeChoice()
 
 function setVideoSrc(id, url, t) {
   if (id === '#video') {

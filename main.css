@@ -32,10 +32,10 @@ video {
     margin-bottom: 10vh;
 }
 
-.begin-wrap h2 {
+.begin-wrap h2, .c2cBox p {
     font-size: 4vh;
     cursor: pointer;
-    transform: all 0.5s;
+    transition: all 0.5s;
     border: 1px solid #000;
     display: inline;
 }
@@ -68,6 +68,7 @@ video {
     top: 4vh;
     transform: translateX(-50%);
     font-weight: normal;
+    text-align: center;
 }
 .c2cBox p {
     width: auto;
@@ -77,11 +78,8 @@ video {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    bottom: 4vh;
-    cursor: pointer;
-    transform: all 0.5s;
-    border: 1px solid #000;
-    display: inline;
+    white-space: nowrap;
+    bottom: 10vh;
 }
 .c2cBox p:hover {
     border-bottom: 1px solid white;
@@ -91,11 +89,15 @@ video {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 12vh;
+    padding: 14vh 20vh;
     box-sizing: border-box;
 }
+.button-wrap{
+    margin-left: 20vh;
+    margin-top: -4vh;
+}
 .button-wrap .item {
-   width: 30%;
+   width: 26%;
    height: 50%;
    display: flex;
    align-items: center;
@@ -106,7 +108,21 @@ video {
     height: calc(100% - 10vh);
     cursor: pointer;
 }
-
+.c21 img{
+    height: calc(100% - 18vh);
+}
+.c22 img, 
+.c24 img{
+    width: auto;
+    height: calc(100% - 15vh);
+    cursor: pointer;
+}
+.c23,.c26{
+    margin-left: -4vh;
+}
+.c24, .c25, .c26{
+    margin-top: 2vh;
+}
 .button3-wrap .item {
     width: 50%;
     height: 50%;
