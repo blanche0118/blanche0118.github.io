@@ -1,6 +1,6 @@
-var flag = 'c2c'
+var flag = 'c3b'
 
-
+var seasons = [0, 0, 0, 0]
 var chapterOneBefore = "./assets/c1b.mp4"
 var chapterOne = "./assets/c1.mp4"
 var chapterTwo = "./assets/c2.mp4"
@@ -49,9 +49,18 @@ function chapterVideo() {
   } else if (flag === 'c2cV') {
     flag = 'c2c'
     chapterTwoChoice()
+  } else if (flag === 'c3b') {
+    chapterThreeChoice()
+  } else if (flag === 'c3V') {
+    if (seasons.indexOf(0) === -1) {
+      
+    } else {
+      flag = 'c3b'
+      chapterThreeChoice()
+    }
   }
 }
-
+end.css('display', "flex")
 
 function chapterTwoChoice() {
   $('.c2cBox').css('display', "block")
@@ -69,6 +78,22 @@ function chapterTwoChoice() {
   })
 }
 
+function chapterThreeChoice() {
+  $('.c3cBox').css('display', "block")
+  $('.item').click(function (e) {
+    $('.c3cBox').css('display', "none")
+    const index = $(this).index()
+    const url = chapterThreeVideo[index]
+    $('#video').attr('src', url);
+    $('#video')[0].load();
+    $('#video')[0].play();
+    flag = 'c3V'
+    seasons[index] = 1
+  })
+
+}
+
+chapterThreeChoice()
 
 function setVideoSrc(id, url, t) {
   if (id === '#video') {

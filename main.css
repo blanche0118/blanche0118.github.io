@@ -48,7 +48,7 @@ video {
     transition: opacity 1s ease-in-out;
 }
 
-.c2cBox {
+.c2cBox, .c3cBox{
     background-color: #000;
     position: absolute;
     top: 0;
@@ -58,7 +58,7 @@ video {
     display: none;
     z-index: 9999;
 }
-.c2cBox h2 {
+.c2cBox h2, .c3cBox h2{
     width: 100vh;
     height: auto;
     color: #fff;
@@ -86,7 +86,7 @@ video {
     border-bottom: 1px solid white;
 }
 
-.button-wrap {
+.button-wrap, .button3-wrap {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -105,3 +105,44 @@ video {
     height: calc(100% - 10vh);
     cursor: pointer;
 }
+
+.button3-wrap .item {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .button3-wrap .item p{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 8px;
+ }
+ .button3-wrap img {
+     width: auto;
+     height: auto;
+     cursor: pointer;
+ }
+ #end {
+    display: none;
+    background-color: #000;
+ }
+ #end h2, #end p{
+    height: auto;
+    width: auto;
+    color: #fff;
+ }
+ #end h2{
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-size: 5vh;
+    margin-bottom: 5vh;
+ }
+ #end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
