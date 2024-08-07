@@ -7,11 +7,11 @@ var chapterTwo = "./assets/c2.mp4"
 var chapterTwoContent = "./assets/c2c.mp4"
 var chapterThreeBefore = "./assets/c3.mp4"
 var chapterTwoVideo = [
-  'https://onedrive.live.com/embed?id=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&resid=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&cid=8e95b1bca9c64df8&ithint=video%2cmp4&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy84ZTk1YjFiY2E5YzY0ZGY4L0lRUHlmLXdiSHd1MFRhSTh0MHFPaDJmRkFXOXVKakswTDRBMG54TnFROEkxR0ZZ&migratedtospo=true&embed=1',
-  "https://onedrive.live.com/embed?id=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&resid=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&cid=8e95b1bca9c64df8&ithint=video%2cmp4&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy84ZTk1YjFiY2E5YzY0ZGY4L0lRUHlmLXdiSHd1MFRhSTh0MHFPaDJmRkFXOXVKakswTDRBMG54TnFROEkxR0ZZ&migratedtospo=true&embed=1",
-  "https://onedrive.live.com/embed?id=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&resid=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&cid=8e95b1bca9c64df8&ithint=video%2cmp4&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy84ZTk1YjFiY2E5YzY0ZGY4L0lRUHlmLXdiSHd1MFRhSTh0MHFPaDJmRkFXOXVKakswTDRBMG54TnFROEkxR0ZZ&migratedtospo=true&embed=1",
-  "https://onedrive.live.com/embed?id=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&resid=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&cid=8e95b1bca9c64df8&ithint=video%2cmp4&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy84ZTk1YjFiY2E5YzY0ZGY4L0lRUHlmLXdiSHd1MFRhSTh0MHFPaDJmRkFXOXVKakswTDRBMG54TnFROEkxR0ZZ&migratedtospo=true&embed=1",
-  "https://onedrive.live.com/embed?id=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&resid=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&cid=8e95b1bca9c64df8&ithint=video%2cmp4&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy84ZTk1YjFiY2E5YzY0ZGY4L0lRUHlmLXdiSHd1MFRhSTh0MHFPaDJmRkFXOXVKakswTDRBMG54TnFROEkxR0ZZ&migratedtospo=true&embed=1"
+  'https://drive.google.com/uc?export=download&id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm',
+  "https://drive.google.com/uc?export=download&id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm",
+  "https://drive.google.com/uc?export=download&id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm",
+  "https://drive.google.com/uc?export=download&id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm",
+  "https://drive.google.com/uc?export=download&id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm"
 ]
 
 var chapterThreeVideo = [
@@ -66,7 +66,7 @@ function chapterVideo() {
 function chapterTwoChoice() {
   $('.c2cBox').css('display', "block")
   $('.item').click(function (e) {
-    if($(this).index() < 5){
+    if ($(this).index() < 5) {
       $('.c2cBox').css('display', "none")
       const url = chapterTwoVideo[$(this).index()]
       $('#video').attr('src', url);
@@ -74,7 +74,7 @@ function chapterTwoChoice() {
       $('#video')[0].play();
       flag = 'c2cV'
     }
-    
+
   })
   $('.gotoC3').click(function (e) {
     $('.c2cBox').css('display', "none")
