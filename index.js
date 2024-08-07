@@ -50,12 +50,11 @@ function chapterVideo() {
     flag = 'c2c'
     chapterTwoChoice()
   } else if (flag === 'c3b') {
-    setVideoSrc('#video', chapterThreeBefore, 'c3')
-  }else if (flag === 'c3') {
     chapterThreeChoice()
   } else if (flag === 'c3V') {
     if (seasons.indexOf(0) === -1) {
       $('#end').css('display', "flex")
+      $('#end').fadeIn(2000);
     } else {
       flag = 'c3b'
       chapterThreeChoice()
@@ -67,12 +66,15 @@ function chapterVideo() {
 function chapterTwoChoice() {
   $('.c2cBox').css('display', "block")
   $('.item').click(function (e) {
-    $('.c2cBox').css('display', "none")
-    const url = chapterTwoVideo[$(this).index()]
-    $('#video').attr('src', url);
-    $('#video')[0].load();
-    $('#video')[0].play();
-    flag = 'c2cV'
+    if($(this).index() < 5){
+      $('.c2cBox').css('display', "none")
+      const url = chapterTwoVideo[$(this).index()]
+      $('#video').attr('src', url);
+      $('#video')[0].load();
+      $('#video')[0].play();
+      flag = 'c2cV'
+    }
+    
   })
   $('.gotoC3').click(function (e) {
     $('.c2cBox').css('display', "none")

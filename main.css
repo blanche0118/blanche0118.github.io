@@ -4,7 +4,6 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    font-family: Serif;
     background-color: #000;
 }
 
@@ -21,6 +20,7 @@ video {
     bottom: 10vh;
     text-align: center;
     color: #fff;
+    padding-bottom: 8px;
 }
 
 .begin-wrap p {
@@ -59,7 +59,7 @@ video {
     display: none;
     z-index: 9999;
 }
-.c2cBox h2, .c3cBox h2{
+.c2cBox h2{
     width: 100vh;
     height: auto;
     color: #fff;
@@ -69,6 +69,17 @@ video {
     transform: translateX(-50%);
     font-weight: normal;
     text-align: center;
+    font-size: 4vh;
+}
+.c3cBox h2{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    font-weight: normal;
+    line-height: 4vh;
+    padding-top: 8vh;
+    font-size: 4vh;
 }
 .c2cBox p {
     width: auto;
@@ -123,6 +134,9 @@ video {
 .c24, .c25, .c26{
     margin-top: 1vh;
 }
+.button3-wrap{
+    margin-top: -8vh;
+}
 .button3-wrap .item {
     width: 50%;
     height: 50%;
@@ -135,6 +149,9 @@ video {
     text-align: center;
     font-weight: 700;
     margin-top: 8px;
+    height: 12vh;
+    line-height: 3vh;
+    font-size: 3vh;
  }
  .button3-wrap img {
      width: auto;
@@ -142,8 +159,9 @@ video {
      cursor: pointer;
  }
  #end {
-    display: none;
     background-color: #000;
+    position: absolute;
+    top: 0;
  }
  #end h2, #end p{
     height: auto;
@@ -154,11 +172,17 @@ video {
     width: 100%;
     text-align: center;
     font-style: italic;
-    font-size: 5vh;
+    font-size: 8vh;
+    margin-bottom: 5vh;
+ }
+ #end p{
+    width: 100%;
+    text-align: center;
+    font-size: 3vh;
     margin-bottom: 5vh;
  }
  #end{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     flex-direction: column;
