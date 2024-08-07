@@ -7,11 +7,11 @@ var chapterTwo = "./assets/c2.mp4"
 var chapterTwoContent = "./assets/c2c.mp4"
 var chapterThreeBefore = "./assets/c3.mp4"
 var chapterTwoVideo = [
-  "./assets/c2/1.mp4",
-  "./assets/c2/2.mp4",
-  "./assets/c2/3.mp4",
-  "./assets/c2/4.mp4",
-  "./assets/c2/5.mp4"
+  'https://1drv.ms/v/c/8e95b1bca9c64df8/ES6Mqs6plupMp9NzsX_M0NEB-ZIM4xqUzWrc-aGE_Z7C7w',
+  "https://1drv.ms/v/c/8e95b1bca9c64df8/ES6Mqs6plupMp9NzsX_M0NEB-ZIM4xqUzWrc-aGE_Z7C7w",
+  "https://1drv.ms/v/c/8e95b1bca9c64df8/ES6Mqs6plupMp9NzsX_M0NEB-ZIM4xqUzWrc-aGE_Z7C7w",
+  "https://1drv.ms/v/c/8e95b1bca9c64df8/ES6Mqs6plupMp9NzsX_M0NEB-ZIM4xqUzWrc-aGE_Z7C7w",
+  "https://1drv.ms/v/c/8e95b1bca9c64df8/ES6Mqs6plupMp9NzsX_M0NEB-ZIM4xqUzWrc-aGE_Z7C7w"
 ]
 
 var chapterThreeVideo = [
