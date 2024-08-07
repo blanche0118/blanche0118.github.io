@@ -15,9 +15,7 @@
     font-family: 'SourceHanSerifSC';
     
 }
-html{
-    
-}
+
 video {
     width: 100%;
     height: 100%;
@@ -170,11 +168,7 @@ video {
      height: auto;
      cursor: pointer;
  }
- #end {
-    background-color: #000;
-    position: absolute;
-    top: 0;
- }
+
  #end h2, #end p{
     height: auto;
     width: auto;
@@ -195,7 +189,12 @@ video {
  }
  #end{
     display: none;
-    align-items: center;
+    /* align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; */
+ }
+ #end {
+    /* background-color: #000; */
+    position: absolute;
+    top: 0;
  }

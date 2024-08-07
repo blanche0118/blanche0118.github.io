@@ -1,4 +1,4 @@
-var flag = 'c2c'
+var flag = 'begin'
 
 var seasons = [0, 0, 0, 0]
 var chapterOneBefore = "./assets/c1b.mp4"
@@ -7,11 +7,11 @@ var chapterTwo = "./assets/c2.mp4"
 var chapterTwoContent = "./assets/c2c.mp4"
 var chapterThreeBefore = "./assets/c3.mp4"
 var chapterTwoVideo = [
-  'https://drive.usercontent.google.com/download?id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm&export=download&authuser=1',
-  "https://drive.usercontent.google.com/download?id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm&export=download&authuser=1",
-  "https://drive.usercontent.google.com/download?id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm&export=download&authuser=1",
-  "https://drive.usercontent.google.com/download?id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm&export=download&authuser=1",
-  "https://drive.usercontent.google.com/download?id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm&export=download&authuser=1"
+  "./assets/c2/1.mp4",
+  "./assets/c2/2.mp4",
+  "./assets/c2/3.mp4",
+  "./assets/c2/4.mp4",
+  "./assets/c2/5.mp4",
 ]
 
 var chapterThreeVideo = [
@@ -52,9 +52,11 @@ function chapterVideo() {
   } else if (flag === 'c3b') {
     chapterThreeChoice()
   } else if (flag === 'c3V') {
-    if (seasons.indexOf(0) === -1) {
-      $('#end').css('display', "flex")
+    if (seasons.indexOf(0) != -1) {
+      $('#end').css('display', "block")
       $('#end').fadeIn(2000);
+      $('#end')[0].load();
+      $('#end')[0].play();
     } else {
       flag = 'c3b'
       chapterThreeChoice()
