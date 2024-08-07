@@ -1,4 +1,4 @@
-var flag = 'begin'
+var flag = 'c2c'
 
 var seasons = [0, 0, 0, 0]
 var chapterOneBefore = "./assets/c1b.mp4"
@@ -7,11 +7,11 @@ var chapterTwo = "./assets/c2.mp4"
 var chapterTwoContent = "./assets/c2c.mp4"
 var chapterThreeBefore = "./assets/c3.mp4"
 var chapterTwoVideo = [
-  'https://1drv.ms/v/c/8e95b1bca9c64df8/ES6Mqs6plupMp9NzsX_M0NEB-ZIM4xqUzWrc-aGE_Z7C7w',
-  "https://1drv.ms/v/c/8e95b1bca9c64df8/ES6Mqs6plupMp9NzsX_M0NEB-ZIM4xqUzWrc-aGE_Z7C7w",
-  "https://1drv.ms/v/c/8e95b1bca9c64df8/ES6Mqs6plupMp9NzsX_M0NEB-ZIM4xqUzWrc-aGE_Z7C7w",
-  "https://1drv.ms/v/c/8e95b1bca9c64df8/ES6Mqs6plupMp9NzsX_M0NEB-ZIM4xqUzWrc-aGE_Z7C7w",
-  "https://1drv.ms/v/c/8e95b1bca9c64df8/ES6Mqs6plupMp9NzsX_M0NEB-ZIM4xqUzWrc-aGE_Z7C7w"
+  'https://onedrive.live.com/embed?id=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&resid=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&cid=8e95b1bca9c64df8&ithint=video%2cmp4&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy84ZTk1YjFiY2E5YzY0ZGY4L0lRUHlmLXdiSHd1MFRhSTh0MHFPaDJmRkFXOXVKakswTDRBMG54TnFROEkxR0ZZ&migratedtospo=true&embed=1',
+  "https://onedrive.live.com/embed?id=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&resid=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&cid=8e95b1bca9c64df8&ithint=video%2cmp4&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy84ZTk1YjFiY2E5YzY0ZGY4L0lRUHlmLXdiSHd1MFRhSTh0MHFPaDJmRkFXOXVKakswTDRBMG54TnFROEkxR0ZZ&migratedtospo=true&embed=1",
+  "https://onedrive.live.com/embed?id=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&resid=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&cid=8e95b1bca9c64df8&ithint=video%2cmp4&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy84ZTk1YjFiY2E5YzY0ZGY4L0lRUHlmLXdiSHd1MFRhSTh0MHFPaDJmRkFXOXVKakswTDRBMG54TnFROEkxR0ZZ&migratedtospo=true&embed=1",
+  "https://onedrive.live.com/embed?id=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&resid=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&cid=8e95b1bca9c64df8&ithint=video%2cmp4&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy84ZTk1YjFiY2E5YzY0ZGY4L0lRUHlmLXdiSHd1MFRhSTh0MHFPaDJmRkFXOXVKakswTDRBMG54TnFROEkxR0ZZ&migratedtospo=true&embed=1",
+  "https://onedrive.live.com/embed?id=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&resid=8E95B1BCA9C64DF8!s1bec7ff20b1f4db4a23cb74a8e8767c5&cid=8e95b1bca9c64df8&ithint=video%2cmp4&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy84ZTk1YjFiY2E5YzY0ZGY4L0lRUHlmLXdiSHd1MFRhSTh0MHFPaDJmRkFXOXVKakswTDRBMG54TnFROEkxR0ZZ&migratedtospo=true&embed=1"
 ]
 
 var chapterThreeVideo = [
