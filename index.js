@@ -52,7 +52,7 @@ function chapterVideo() {
   } else if (flag === 'c3b') {
     chapterThreeChoice()
   } else if (flag === 'c3V') {
-    if (seasons.indexOf(0) != -1) {
+    if (seasons.indexOf(0) === -1) {
       $('#end').css('display', "block")
       $('#end').fadeIn(2000);
       $('#end')[0].load();
