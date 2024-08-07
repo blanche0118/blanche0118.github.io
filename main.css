@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'SourceHanSerifSC';
+    src: url('SourceHanSerifSC-VF.ttf') format('truetype'); /* 为不同浏览器提供不同格式的字体文件 */
+    font-weight: normal;
+    font-style: normal;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +12,7 @@
     height: 100%;
     overflow: hidden;
     background-color: #000;
-    font-family: 'SourceHanSerifSC-VF';
+    font-family: 'SourceHanSerifSC';
     
 }
 html{
