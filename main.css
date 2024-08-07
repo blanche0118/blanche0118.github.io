@@ -155,7 +155,6 @@ video {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family: 'Microsoft YaHei';
  }
  .button3-wrap .item p{
     text-align: center;
@@ -164,6 +163,8 @@ video {
     height: 12vh;
     line-height: 3vh;
     font-size: 3vh;
+    font-family: 'Microsoft YaHei';
+    font-weight: 700;
  }
  .button3-wrap img {
      width: auto;
