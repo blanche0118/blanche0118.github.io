@@ -7,11 +7,11 @@ var chapterTwo = "./assets/c2.mp4"
 var chapterTwoContent = "./assets/c2c.mp4"
 var chapterThreeBefore = "./assets/c3.mp4"
 var chapterTwoVideo = [
-  'https://drive.google.com/uc?export=download&id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm',
-  "https://drive.google.com/uc?export=download&id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm",
-  "https://drive.google.com/uc?export=download&id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm",
-  "https://drive.google.com/uc?export=download&id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm",
-  "https://drive.google.com/uc?export=download&id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm"
+  'https://drive.usercontent.google.com/download?id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm&export=download&authuser=1',
+  "https://drive.usercontent.google.com/download?id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm&export=download&authuser=1",
+  "https://drive.usercontent.google.com/download?id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm&export=download&authuser=1",
+  "https://drive.usercontent.google.com/download?id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm&export=download&authuser=1",
+  "https://drive.usercontent.google.com/download?id=1xh_Viz6jLqB9RFnC50ybPfDcyhZyplKm&export=download&authuser=1"
 ]
 
 var chapterThreeVideo = [
