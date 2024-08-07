@@ -48,7 +48,9 @@ video {
     border: 1px solid #000;
     display: inline;
 }
-
+.c2cBox p {
+    font-weight: 700;
+}
 .begin-wrap h2:hover {
     border-bottom: 1px solid white;
     /* 设置下划线 */
@@ -78,7 +80,7 @@ video {
     transform: translateX(-50%);
     font-weight: normal;
     text-align: center;
-    font-size: 4vh;
+    font-size: 3vh;
 }
 .c3cBox h2{
     text-align: center;
