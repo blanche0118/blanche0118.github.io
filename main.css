@@ -118,6 +118,7 @@ video {
     margin-left: 20vh;
     margin-top: -3vh;
 }
+
 .button-wrap .item {
    width: 26%;
    height: 50%;
@@ -201,3 +202,27 @@ video {
     position: absolute;
     top: 0;
  }
+
+ .c26{
+    flex-direction: column;
+    padding-top: 3vh;
+ }
+ .c26 img{
+    width: 10vh;
+    height: 10vh;
+}
+.c26 p{
+    position: relative;
+    white-space: wrap;
+    bottom: 0;
+    left: 0;
+    transform: translateX(0);
+    font-size: 3vh;
+    font-weight: normal;
+    width: 17vh;
+    border: none;
+    margin-top: 1vh;
+}
+.c26 p:hover{
+    border: none;
+}
